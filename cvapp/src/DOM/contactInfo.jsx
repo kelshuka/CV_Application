@@ -8,10 +8,6 @@ export default function ContactInfo( {Data, setData} ) {
       setData( {...Data, [e.target.name]:e.target.value  });
     };
 
-
-   /*  function handleNameChange(e) {
-        setAllNames(e.target.value);
-    } */
   
     return (
       <div
