@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(238, 223, 223);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.container {
+  display: grid;
+  gap: 3em;
+}
+
+.cvForms {
+  grid-column: 1/2;
+  background-color: rgb(240, 240, 10);
+  color: blue ;
+}
+
+.cvStruct {
+  grid-column: 2/3;
+  background-color: rgb(238, 238, 196);
+  color: rgb(21, 21, 49) ;
+}
