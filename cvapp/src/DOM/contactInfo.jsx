@@ -17,6 +17,8 @@ export default function ContactInfo( {Data, setData} ) {
             flexDirection: 'column',
           }}    >
 
+          <h2> CONTACT </h2>
+
         <label>
         Name:{' '}
         <input

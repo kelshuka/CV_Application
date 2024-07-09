@@ -10,11 +10,8 @@ export default function CVApp(){
         Names: "John Mnbt",
         emailInfo: "john@gmail.com",
         phoneNo: "123890",
-        /* schoolName: "University of San Paolo",
-        degree: "BSc in Comp. Science",
-        schoolStart: "",
-        schoolEnd: "", */
         newEdu: [],
+        newWork: [],
     });
 
     return (

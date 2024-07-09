@@ -1,6 +1,5 @@
 
 
-import { useState } from 'react';
 import {v4 as uuid} from 'uuid';
 
 
@@ -100,7 +99,7 @@ export default function EducationInfo( {Data, setData} ) {
             </form>
         ))}
 
-        <button type='button' onClick={addEducation}> Add Education </button>
+        <button onClick={addEducation}> Add Education </button>
         <p style={{height:2+'px'}}></p>
  
       </div>
