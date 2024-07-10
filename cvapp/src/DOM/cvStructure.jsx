@@ -9,8 +9,8 @@ export default function CVStructure( {Data} ){
                     </h1>
 
                     <div className="contact"> 
-                        <section id="Email" aria-labelledby='Email' >Email: {Data.emailInfo} </section> 
-                        <section id="Phone" aria-labelledby='Phone' >Phone: {Data.phoneNo} </section>
+                        <section id="Email" aria-labelledby='Email' > {Data.emailInfo} </section> 
+                        <section id="Phone" aria-labelledby='Phone' > {Data.phoneNo}</section>
                     </div>
 
                 </nav>
@@ -54,6 +54,18 @@ export default function CVStructure( {Data} ){
                                 <p></p>
                             
                             </div>
+                        ))}
+                    </section> 
+                </section>
+                <p></p>
+                <section className="info" id="info" aria-labelledby='info' > 
+                    <h2> DIGITAL/COMMUNICATION SKILLS</h2>
+                    <section className="info2"> 
+                        {Data.newSkill.map( (skill) => ( 
+                            <ul key={skill.id}> 
+                                <li className="info4" id="info42" aria-labelledby='info41' > {skill.skills} </li>
+                                                   
+                            </ul>
                         ))}
                     </section> 
                 </section>

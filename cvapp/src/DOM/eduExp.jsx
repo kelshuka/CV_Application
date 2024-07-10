@@ -1,5 +1,4 @@
 
-
 import {v4 as uuid} from 'uuid';
 
 
@@ -36,14 +35,11 @@ export default function EducationInfo( {Data, setData} ) {
         setData({ ...Data, newEdu:delEdu });
     };
 
+
   
     return (
       <div
-          className="eduExp"
-          /* style={{
-            display: 'flex',
-            flexDirection: 'column',
-          }} */  
+          className="eduExp" 
         >
 
         <h2> EDUCATION</h2>
@@ -53,6 +49,8 @@ export default function EducationInfo( {Data, setData} ) {
                 display: 'flex',
                 flexDirection: 'column',
               }}>  
+
+
                 <label>
                     Name:{' '}
                     <input
@@ -94,7 +92,7 @@ export default function EducationInfo( {Data, setData} ) {
                 </label>
 
                 <button type='button' onClick={() => deleteEdu(edu.id)}> Delete </button>
-
+               
                 <p style={{height:2+'px'}}></p>
             </form>
         ))}
